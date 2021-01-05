@@ -15,7 +15,7 @@ import com.renli.project.system.domain.SysUser;
 import com.renli.project.system.service.ISysUserService;
 
 /**
- * 用户验证处理
+ * 对于用户的验证处理
  *
  * @author zhangxuegang
  */

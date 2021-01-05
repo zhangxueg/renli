@@ -48,7 +48,7 @@ public interface ISysUserService
      * @param userName 用户名
      * @return 结果
      */
-    public String selectUserPostGroup(String userName);
+//    public String selectUserPostGroup(String userName);
 
     /**
      * 校验用户名称是否唯一

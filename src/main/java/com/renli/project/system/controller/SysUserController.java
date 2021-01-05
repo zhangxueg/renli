@@ -26,7 +26,7 @@ import com.renli.framework.web.controller.BaseController;
 import com.renli.framework.web.domain.AjaxResult;
 import com.renli.framework.web.page.TableDataInfo;
 import com.renli.project.system.domain.SysUser;
-import com.renli.project.system.service.ISysPostService;
+//import com.renli.project.system.service.ISysPostService;
 import com.renli.project.system.service.ISysRoleService;
 import com.renli.project.system.service.ISysUserService;
 
@@ -45,8 +45,8 @@ public class SysUserController extends BaseController
     @Autowired
     private ISysRoleService roleService;
 
-    @Autowired
-    private ISysPostService postService;
+//    @Autowired
+//    private ISysPostService postService;
 
     @Autowired
     private TokenService tokenService;
@@ -102,11 +102,11 @@ public class SysUserController extends BaseController
     {
         AjaxResult ajax = AjaxResult.success();
         ajax.put("roles", roleService.selectRoleAll());
-        ajax.put("posts", postService.selectPostAll());
+//        ajax.put("posts", postService.selectPostAll());
         if (StringUtils.isNotNull(userId))
         {
             ajax.put(AjaxResult.DATA_TAG, userService.selectUserById(userId));
-            ajax.put("postIds", postService.selectPostListByUserId(userId));
+//            ajax.put("postIds", postService.selectPostListByUserId(userId));
             ajax.put("roleIds", roleService.selectRoleListByUserId(userId));
         }
         return ajax;

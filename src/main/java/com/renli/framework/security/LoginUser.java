@@ -14,6 +14,8 @@ import com.renli.project.system.domain.SysUser;
  */
 public class LoginUser implements UserDetails
 {
+
+//    serialVersionUID适用于java序列化机制,来验证的版本一致的
     private static final long serialVersionUID = 1L;
 
     /**
