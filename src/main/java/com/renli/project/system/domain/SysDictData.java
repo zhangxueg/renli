@@ -5,9 +5,9 @@ import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.renli.common.constant.UserConstants;
-import com.renli.framework.aspectj.lang.annotation.Excel;
-import com.renli.framework.aspectj.lang.annotation.Excel.ColumnType;
-import com.renli.framework.web.domain.BaseEntity;
+import com.renli.common.aspectj.lang.annotation.Excel;
+import com.renli.common.aspectj.lang.annotation.Excel.ColumnType;
+import com.renli.common.web.domain.BaseEntity;
 
 /**
  * 字典数据表 sys_dict_data

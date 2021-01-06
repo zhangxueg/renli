@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.renli.common.constant.UserConstants;
 import com.renli.common.utils.SecurityUtils;
 import com.renli.common.utils.ServletUtils;
-import com.renli.framework.aspectj.lang.annotation.Log;
-import com.renli.framework.aspectj.lang.enums.BusinessType;
-import com.renli.framework.security.LoginUser;
-import com.renli.framework.security.service.TokenService;
-import com.renli.framework.web.controller.BaseController;
-import com.renli.framework.web.domain.AjaxResult;
+import com.renli.common.aspectj.lang.annotation.Log;
+import com.renli.common.aspectj.lang.enums.BusinessType;
+import com.renli.common.security.LoginUser;
+import com.renli.common.security.service.TokenService;
+import com.renli.common.web.controller.BaseController;
+import com.renli.common.web.domain.AjaxResult;
 import com.renli.project.system.domain.SysMenu;
 import com.renli.project.system.service.ISysMenuService;
 

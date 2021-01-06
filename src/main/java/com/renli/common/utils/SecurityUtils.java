@@ -5,7 +5,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import com.renli.common.constant.HttpStatus;
 import com.renli.common.exception.CustomException;
-import com.renli.framework.security.LoginUser;
+import com.renli.common.security.LoginUser;
 
 /**
  * 安全服务工具类

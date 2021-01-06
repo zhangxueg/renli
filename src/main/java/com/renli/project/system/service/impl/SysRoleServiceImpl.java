@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.renli.common.constant.UserConstants;
 import com.renli.common.exception.CustomException;
 import com.renli.common.utils.StringUtils;
-import com.renli.framework.aspectj.lang.annotation.DataScope;
+import com.renli.common.aspectj.lang.annotation.DataScope;
 import com.renli.project.system.domain.SysRole;
 import com.renli.project.system.domain.SysRoleDept;
 import com.renli.project.system.domain.SysRoleMenu;

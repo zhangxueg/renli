@@ -11,7 +11,7 @@ import com.renli.common.exception.file.InvalidExtensionException;
 import com.renli.common.utils.DateUtils;
 import com.renli.common.utils.StringUtils;
 import com.renli.common.utils.security.Md5Utils;
-import com.renli.framework.config.RenLiConfig;
+import com.renli.common.config.RenLiConfig;
 
 /**
  * 文件上传工具类

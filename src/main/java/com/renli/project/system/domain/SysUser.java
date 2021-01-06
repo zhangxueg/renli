@@ -7,11 +7,11 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.renli.framework.aspectj.lang.annotation.Excel;
-import com.renli.framework.aspectj.lang.annotation.Excel.ColumnType;
-import com.renli.framework.aspectj.lang.annotation.Excel.Type;
-import com.renli.framework.aspectj.lang.annotation.Excels;
-import com.renli.framework.web.domain.BaseEntity;
+import com.renli.common.aspectj.lang.annotation.Excel;
+import com.renli.common.aspectj.lang.annotation.Excel.ColumnType;
+import com.renli.common.aspectj.lang.annotation.Excel.Type;
+import com.renli.common.aspectj.lang.annotation.Excels;
+import com.renli.common.web.domain.BaseEntity;
 
 /**
  * 用户对象 sys_user

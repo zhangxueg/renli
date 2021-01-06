@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import com.renli.common.constant.UserConstants;
 import com.renli.common.utils.SecurityUtils;
 import com.renli.common.utils.StringUtils;
-import com.renli.framework.web.domain.TreeSelect;
+import com.renli.common.web.domain.TreeSelect;
 import com.renli.project.system.domain.SysMenu;
 import com.renli.project.system.domain.SysUser;
 import com.renli.project.system.domain.vo.MetaVo;
