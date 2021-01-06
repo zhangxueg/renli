@@ -13,7 +13,6 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 import com.renli.common.constant.HttpStatus;
 import com.renli.common.exception.BaseException;
 import com.renli.common.exception.CustomException;
-import com.renli.common.exception.DemoModeException;
 import com.renli.common.utils.StringUtils;
 import com.renli.framework.web.domain.AjaxResult;
 
@@ -104,14 +103,5 @@ public class GlobalExceptionHandler
         log.error(e.getMessage(), e);
         String message = e.getBindingResult().getFieldError().getDefaultMessage();
         return AjaxResult.error(message);
-    }
-
-    /**
-     * 演示模式异常
-     */
-    @ExceptionHandler(DemoModeException.class)
-    public AjaxResult demoModeException(DemoModeException e)
-    {
-        return AjaxResult.error("演示模式，不允许操作");
     }
 }

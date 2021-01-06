@@ -11,8 +11,6 @@ import com.renli.common.constant.Constants;
 import com.renli.common.utils.IdUtils;
 import com.renli.common.utils.ServletUtils;
 import com.renli.common.utils.StringUtils;
-import com.renli.common.utils.ip.AddressUtils;
-import com.renli.common.utils.ip.IpUtils;
 import com.renli.framework.redis.RedisCache;
 import com.renli.framework.security.LoginUser;
 import eu.bitwalker.useragentutils.UserAgent;
@@ -150,9 +148,9 @@ public class TokenService
     public void setUserAgent(LoginUser loginUser)
     {
         UserAgent userAgent = UserAgent.parseUserAgentString(ServletUtils.getRequest().getHeader("User-Agent"));
-        String ip = IpUtils.getIpAddr(ServletUtils.getRequest());
-        loginUser.setIpaddr(ip);
-        loginUser.setLoginLocation(AddressUtils.getRealAddressByIP(ip));
+//        String ip = IpUtils.getIpAddr(ServletUtils.getRequest());
+//        loginUser.setIpaddr(ip);
+//        loginUser.setLoginLocation(AddressUtils.getRealAddressByIP(ip));
         loginUser.setBrowser(userAgent.getBrowser().getName());
         loginUser.setOs(userAgent.getOperatingSystem().getName());
     }
