@@ -1,6 +1,8 @@
 package com.renli.project.system.controller;
 
 import java.io.IOException;
+
+import com.renli.project.system.domain.SysUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,7 +22,6 @@ import com.renli.common.security.LoginUser;
 import com.renli.common.security.service.TokenService;
 import com.renli.common.web.controller.BaseController;
 import com.renli.common.web.domain.AjaxResult;
-import com.renli.project.system.domain.SysUser;
 import com.renli.project.system.service.ISysUserService;
 
 /**

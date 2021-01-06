@@ -2,6 +2,8 @@ package com.renli.project.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.renli.project.system.domain.SysUser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +16,6 @@ import com.renli.common.utils.StringUtils;
 import com.renli.common.aspectj.lang.annotation.DataScope;
 //import com.renli.project.system.domain.SysPost;
 import com.renli.project.system.domain.SysRole;
-import com.renli.project.system.domain.SysUser;
 //import com.renli.project.system.domain.SysUserPost;
 import com.renli.project.system.domain.SysUserRole;
 //import com.renli.project.system.mapper.SysPostMapper;

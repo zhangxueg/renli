@@ -8,6 +8,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import com.renli.project.system.domain.SysUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.renli.common.constant.UserConstants;
@@ -15,7 +17,6 @@ import com.renli.common.utils.SecurityUtils;
 import com.renli.common.utils.StringUtils;
 import com.renli.common.web.domain.TreeSelect;
 import com.renli.project.system.domain.SysMenu;
-import com.renli.project.system.domain.SysUser;
 import com.renli.project.system.domain.vo.MetaVo;
 import com.renli.project.system.domain.vo.RouterVo;
 import com.renli.project.system.mapper.SysMenuMapper;

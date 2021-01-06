@@ -1,6 +1,8 @@
 package com.renli.project.system.controller;
 
 import java.util.List;
+
+import com.renli.project.system.domain.SysUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
@@ -25,7 +27,6 @@ import com.renli.common.security.service.TokenService;
 import com.renli.common.web.controller.BaseController;
 import com.renli.common.web.domain.AjaxResult;
 import com.renli.common.web.page.TableDataInfo;
-import com.renli.project.system.domain.SysUser;
 //import com.renli.project.system.service.ISysPostService;
 import com.renli.project.system.service.ISysRoleService;
 import com.renli.project.system.service.ISysUserService;

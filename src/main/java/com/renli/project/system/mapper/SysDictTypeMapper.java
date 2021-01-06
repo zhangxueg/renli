@@ -1,8 +1,9 @@
 package com.renli.project.system.mapper;
 
 import java.util.List;
-import org.apache.ibatis.annotations.Mapper;
+
 import com.renli.project.system.domain.SysDictType;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 字典表 数据层

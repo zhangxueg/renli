@@ -1,12 +1,13 @@
 package com.renli.project.system.service.impl;
 
 import java.util.List;
+
+import com.renli.project.system.domain.SysDictType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.renli.common.constant.UserConstants;
 import com.renli.common.utils.StringUtils;
-import com.renli.project.system.domain.SysDictType;
 import com.renli.project.system.mapper.SysDictDataMapper;
 import com.renli.project.system.mapper.SysDictTypeMapper;
 import com.renli.project.system.service.ISysDictTypeService;

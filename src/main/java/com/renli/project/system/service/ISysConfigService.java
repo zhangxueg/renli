@@ -1,6 +1,7 @@
 package com.renli.project.system.service;
 
 import java.util.List;
+
 import com.renli.project.system.domain.SysConfig;
 
 /**

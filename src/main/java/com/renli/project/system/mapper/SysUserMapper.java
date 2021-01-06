@@ -2,9 +2,8 @@ package com.renli.project.system.mapper;
 
 import java.util.List;
 
-import org.apache.ibatis.annotations.Param;
-
 import com.renli.project.system.domain.SysUser;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * 用户表 数据层

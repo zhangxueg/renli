@@ -1,6 +1,7 @@
 package com.renli.project.system.mapper;
 
 import java.util.List;
+
 import com.renli.project.system.domain.SysRole;
 
 /**

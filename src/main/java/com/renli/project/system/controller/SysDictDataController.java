@@ -1,6 +1,9 @@
 package com.renli.project.system.controller;
 
 import java.util.List;
+
+import com.renli.project.system.domain.SysDictData;
+import com.renli.project.system.service.ISysDictDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
@@ -19,8 +22,6 @@ import com.renli.common.aspectj.lang.enums.BusinessType;
 import com.renli.common.web.controller.BaseController;
 import com.renli.common.web.domain.AjaxResult;
 import com.renli.common.web.page.TableDataInfo;
-import com.renli.project.system.domain.SysDictData;
-import com.renli.project.system.service.ISysDictDataService;
 
 /**
  * 数据字典信息
