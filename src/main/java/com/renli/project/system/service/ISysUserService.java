@@ -3,6 +3,7 @@ package com.renli.project.system.service;
 import java.util.List;
 
 import com.renli.project.system.domain.SysUser;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * 用户 业务层
@@ -165,4 +166,6 @@ public interface ISysUserService
      * @return 结果
      */
     public String importUser(List<SysUser> userList, Boolean isUpdateSupport, String operName);
+
+    public String importData( MultipartFile multipartFile);
 }
